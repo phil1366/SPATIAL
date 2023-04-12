@@ -1,0 +1,1279 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width 1844px */
+
+/* banner ligne 28  */
+/* bloc 1 Maecenas ligne 104 */
+/* bloc 2 Fusce ligne 162 */
+/* bloc 3 Mauris ligne 255 */
+/* bloc 4 Aenean ligne 465 */
+/* footer ligne 512 */
+
+/* media queries 980px ligne 582 */
+/* media queries 480px ligne 935 */
+
+body {
+  background-image: url("./images/banner_modif.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  font-family: Raleway;
+}
+
+          /* BANNER */
+
+#banner {
+  height: 600px;
+  font-family: sans-serif;
+  text-transform: uppercase;  
+}
+
+.spatial, .accueil {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: bolder;
+  list-style: none;
+}
+
+.spatial {
+  margin-left: 40px;
+  padding-right: 60%;
+}
+
+.accueil {
+  font-weight: lighter;
+  margin-right: 30px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+        /* bloc centre */
+
+#bloc-centre {
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+  padding-top: 140px;
+  transform: translateX(-15%);
+}
+
+#bloc-centre h1 {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+#bloc-centre h2 {
+  text-align: center;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.button {  
+  font-size: 17px;
+  background: red;
+  text-align: center;
+  color: white;
+  padding: 18px;
+  width: 180px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: sans-serif;
+  margin: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ 
+            /* HEADER-end */
+
+         /* bloc 1 Maecenas */
+
+.bloc-texte {
+  display: flex;
+  height: 550px;
+  width: 1844px;
+  background: white;
+}
+
+            /* bloc-h */
+
+.bloc-h h2 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 38px;
+  width: 300px;
+  padding-top: 110px;
+  padding-left: 100px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.bloc-h h3 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 40px;
+  width: 680px;
+  padding-top: 15px;
+  padding-left: 290px;
+  margin: 0 auto;
+}
+
+.bloc-h p {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  line-height: 1.7;
+  color: rgb(154, 149, 149);
+  width: 620px;
+  padding-top: 15px;
+  padding-left: 290px;
+}
+
+         /* bloc-p */
+
+.bloc-p {
+  text-align: left;
+  font-family: sans-serif;
+  margin-top: 100px;
+  width: 400px;
+  padding-left: 30px;
+  text-transform: none;
+  line-height: 2;
+  font-size: 14px;
+  color: rgb(157, 149, 149);
+}
+
+          /* bloc 2 Fusce */
+
+#bloc-images {
+  background: #f6f6f6;
+  width: 1844px;
+}
+
+.bloc-img {
+  display: flex;
+}
+
+.bloc-txt {
+  text-align: center;
+  padding: 80px 0 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  transform: translateX(-13%);
+}
+
+.bloc-txt h2 {
+  font-size: 40px;
+}
+
+.bloc-txt p {
+  font-size: 22px;
+  color: rgb(176, 173, 173);
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.bloc-image1, .bloc-image2 {
+  transform: translateX(10%);
+}
+
+.bloc-image1 {
+  margin-left: 5%;
+  margin-right: 0;
+}
+
+.bloc-img img {
+  width: 90%;
+}
+
+.bloc-image1 h3, .bloc-image2 h3 {
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding-top: 35px;
+  transform: translateX(-5%);
+}
+
+.bloc-image1 h3, .bloc-image2 h3 {
+  background: white;
+  width: 516px;
+  height: 90px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  transform: translateX(0.1%);
+  margin-top: -5px;
+}
+
+.action {   /* boutons */
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  transform: translateX(-12.3%);
+}
+
+.action a {
+  text-decoration: none;
+  color: white;
+  padding: 17px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.action .btn-red {
+  background: red;
+  width: 230px;
+  margin-right: 20px;
+}
+
+.action .btn-black {
+  background: black;
+  width: 230px;
+}
+
+        /* bloc 3 Mauris */
+
+#feature {
+  display: flex;
+  background: white;
+  height: 750px;
+  width: 1844px;
+}
+
+.feat h2 {
+  font-size: 39px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-left: 170px;
+  padding-top: 100px;
+  width: 700px;
+}
+
+.feat h3 {
+  margin-left: 170px;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  color: rgb(168, 165, 165);
+  font-weight: 400;
+}
+
+            /* blocs */
+
+.bloc3, .bloc4 {
+  transform: translateX(80%);
+  width: 400px;
+}
+
+.bloc1 h3, .bloc2 h3, .bloc3 h3, .bloc4 h3 {
+  font-size: 16px;
+}
+
+.bloc1 h4, .bloc2 h4, .bloc3 h4, .bloc4 h4 {
+  font-size: 13px;
+}
+
+.bloc1 p, .bloc2 p, .bloc3 p, .bloc4 p {
+  font-size: 15px;
+}
+
+.bloc1 img, .bloc2 img, .bloc3 img, .bloc4 img {
+  width: 150px;
+  height: 150px;
+  /*clip-path: circle(40%);*/
+  border: 10px solid #d3cfcf;
+  border-radius: 50%;
+}
+
+.picture {
+  position: relative;
+}
+
+.bloc1 h3, .bloc1 h4 {
+  position: absolute;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.bloc1 h3 {
+  margin-top: 280px;
+  left: 375px;
+}
+
+.bloc1 h4 {
+  left: 325px;
+  margin-top: 315px;
+  color: rgb(166, 163, 163);
+  font-weight: normal;
+}
+
+.bloc1 p, .bloc2 p {
+  position: absolute;
+  left: 175px;
+  text-align: right;
+  line-height: 2;
+  color: rgb(147, 145, 145);
+}
+
+.bloc1 p {
+  margin-top: 350px;
+  left: 130px;
+  width: 358px;
+}
+
+.img1 {
+  position: absolute;
+  left: -336px;
+  top: 277px;
+}
+
+.bloc2 h3, .bloc2 h4 {
+  position: absolute;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.bloc2 h3 {
+  left: 331px;
+  margin-top: 508px;
+  padding-bottom: 20px;
+}
+
+.bloc2 h4 {
+  margin-top: 548px;
+  left: 231px;
+  color: rgb(164, 161, 161);
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.bloc2 p {
+  margin-top: 586px;
+  margin-left: -28px;
+}
+
+.img2 {
+  position: absolute;
+  left: -336px;
+  top: 507px;
+}
+
+.bloc3 h3, .bloc3 h4 {
+  position: absolute;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.bloc3 h3 {
+  top: 280px;
+  width: 230px;
+  right: 440px;
+}
+
+.bloc3 h4 {
+  color: rgb(147, 145, 145);
+  font-weight: normal;
+  padding-bottom: 30px;
+  right: 379px;
+  top: 316px;
+  width: 290px;
+}
+
+.bloc3 p {
+  position: absolute;
+  right: 167px;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 80px;
+  color: rgb(147, 145, 145);
+  width: 500px;
+  top: 350px;
+}
+
+.img3 {
+  position: absolute;
+  right: 711px;
+  top: 277px;
+}
+
+.bloc4 h3, .bloc4 h4 {
+  position: absolute;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.bloc4 h3 {
+  top: 508px;
+  width: 230px;
+  right: 440px;
+}
+
+.bloc4 h4 {
+  right: 219px;
+  top: 548px;
+  font-size: 13px;
+  font-weight: normal;
+  width: 450px;
+  color: rgb(147, 145, 145);
+}
+
+.bloc4 p {
+  position: absolute;
+  right: 167px;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 80px;
+  color: rgb(147, 145, 145);
+  width: 500px;
+  top: 586px;
+}
+
+.img4 {
+  position: absolute;
+  right: 711px;
+  top: 507px;
+}
+
+      /* bloc 3 Mauris-end */
+
+     /* bloc 4 Aenean contact */
+
+.contact {
+  display: flex;
+  margin: 0 auto;
+  width: 1844px;
+  height: 400px;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  transform: translateX(-12%);
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.3em;
+  width: 700px;
+  margin: 90px auto 30px;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: normal;
+  color: rgb(179, 170, 170);
+}
+
+.contact a {      /* bouton */  
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  background: red;
+  border-radius: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+  width: 260px;
+  padding: 18px;
+  padding-top: 20px;
+  border: none;
+  margin: 50px auto;
+}
+
+     /* bloc 4 contact-end*/
+
+        /* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1844px;
+  height: 400px;
+  background: white;
+  transform: translateX(-12%);
+}
+
+.icons {
+  display: flex;
+  padding-top: 80px;
+  transform: translateX(15%);
+}
+
+.icons li {
+  list-style: none;
+  margin-top: -200px;
+  font-size: 15px;
+}
+
+.icons li:first-child {
+  padding-top: 3px;
+}
+
+.icons li:last-child {    /*instagram-logo */  
+  transform: translateX(-30%);
+  margin-top: -195px;
+}
+
+.icons li p {    /*instagram-txt */  
+  padding-left: 50px;
+  margin-top: -20px;
+}
+
+.icons img {
+  width: 20%;
+}
+
+.copyright {
+  display: flex;
+  transform: translateX(6%);
+  margin-top: -100px;
+}
+
+.copyright li {
+  margin-right: 30px;
+  list-style: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: rgb(161, 157, 157);
+}
+
+.copyright a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.untitled::after, .design::after {
+  content: "";
+  border-right: 1px solid black;
+  padding: 10px 25px 5px 0;
+  opacity: 0.2;
+}
+
+             /* media queries 980px */
+
+@media (max-width: 980px) {
+  /* BANNER */
+
+  #banner {
+    height: 780px;    
+  }
+
+  .spatial, .accueil {
+    display: none;
+  }
+
+  .navPanelToggle {
+    display: block;
+  }
+
+  #navPanel.visible {
+    transform: translateX(0);
+    box-shadow: 0 0 1.5em 0 rgb(0 0 0 / 20%);
+    visibility: visible;
+  }
+
+  .fa-bars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: gray;
+    font-size: 25px;
+    width: 90px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+          /* bloc centre */
+
+#bloc-centre {
+    padding-top: 170px;
+    transform: translateX(-13%);
+}
+
+#bloc-centre h1 {
+    font-size: 4em;
+}
+
+#bloc-centre h2 {
+    font-size: 38px;
+}
+
+.button {      
+    font-size: 35px;
+    padding: 30px;
+    width: 380px;
+    margin: 80px;    
+}
+
+          /* bloc 1 Maecenas */
+
+.bloc-texte {
+    flex-direction: column;
+    height: 850px;
+}
+
+.bloc-h h2 {
+    font-size: 45px;
+    margin: 0 120px;
+}
+
+.bloc-h h3 {
+    font-size: 45px;
+    margin: 0 205px;
+    margin-top: -67px;
+    margin-bottom: 30px;
+}
+
+.bloc-h p {
+    display: inline;
+    font-size: 25px;
+    padding-left: 223px;
+}
+
+.bloc-p {
+    margin-top: 70px;
+    width: 65%;
+    padding-left: 225px;
+    font-size: 25px;
+}
+
+           /* bloc 2 Fusce */
+
+.bloc-txt h2 {
+    font-size: 50px;
+    transform: translateX(1%);
+}
+
+.bloc-txt p {
+    font-size: 27px;
+    transform: translateX(1%);
+}
+
+.bloc-image1 {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.bloc-img img {
+    width: 630px;
+}
+
+.bloc-image1 h3, .bloc-image2 h3 {
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.bloc-image1 h3, .bloc-image2 h3 {
+    width: 628px;
+    height: 150px;
+}
+
+.action {
+    margin-top: 100px;
+    transform: translateX(-11%);
+}
+
+.action a {
+    padding: 31px;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+.action .btn-red {
+    width: 400px;
+    margin-right: 30px;
+}
+
+.action .btn-black {
+    width: 400px;
+}
+
+           /* bloc 3 Mauris */
+
+#feature {
+    height: 1800px;
+}
+
+.feat h2 {
+    font-size: 45px;
+    margin-left: 70px;
+}
+
+.feat h3 {
+    margin-left: 73px;
+    font-size: 27px;
+}
+
+          /* blocs */
+
+.bloc1 {
+    width: 80%;
+}
+
+.bloc1 h3 {
+    margin-top: 334px;
+    margin-left: 359px;
+}
+
+.img1 {
+    left: 348px;
+    top: 329px;
+}
+
+.bloc2 {
+    margin-top: 600px;
+}
+
+.img2 {
+    left: 348px;
+    top: 383px;
+}
+
+  .bloc3 {
+    top: 110px;
+    width: 230px;
+    right: 714px;
+  }
+
+  .bloc4 {
+    margin-top: 1000px;
+  }
+
+.bloc1 h4 {
+    padding-bottom: 20px;
+}
+
+.bloc1 h3 {
+    font-size: 27px;
+    margin-top: 330px;
+    left: 366px;
+    width: 200px;
+}
+
+.bloc1 h4 {
+    left: 635px;
+    margin-top: 381px;
+    width: 300px;
+}
+
+.bloc1 p {
+    margin-top: 438px;
+    left: -14px;
+    width: 926px;
+}
+
+.bloc1 h3, .bloc2 h3, .bloc3 h3, .bloc4 h3 {
+    font-size: 27px;
+}
+
+.bloc1 h4, .bloc2 h4, .bloc3 h4, .bloc4 h4 {
+    font-size: 22px;
+}
+
+.bloc1 p, .bloc2 p, .bloc3 p, .bloc4 p {
+    font-size: 23px;
+}
+
+.bloc1 img, .bloc2 img, .bloc3 img, .bloc4 img {
+    width: 210px;
+    height: 210px;
+}
+
+  .bloc2 h3 {
+    left: 640px;
+    width: 271px;
+    margin-top: 380px;
+  }
+
+  .bloc2 h4 {
+    margin-top: 436px;
+    left: 475px;
+    width: 450px;
+  }
+
+  .bloc2 p {
+    margin-top: 505px;
+    margin-left: 0;
+    width: 729px;
+  }
+
+.bloc3 h3 {
+    top: 48px;
+    width: 335px;
+    right: 367px;
+}
+
+.bloc3 h4 {
+    padding-bottom: 30px;
+    right: 357px;
+    top: 102px;
+    width: 346px;
+}
+
+.img3 {
+    right: 856px;
+    top: 50px;
+}
+
+.bloc3 p {
+    right: -79px;
+    width: 778px;
+    top: 167px;
+}
+
+.bloc4 h3 {
+    top: 339px;
+    width: 335px;
+    right: 655px;
+}
+
+.bloc4 h4 {
+    right: 498px;
+    top: 398px;
+    width: 493px;
+}
+
+.bloc4 p {
+    right: 214px;
+    width: 771px;
+    top: 475px;
+}
+
+.img4 {
+    right: 1138px;
+    top: 340px;
+}
+         /* bloc 4 Aenean contact */
+
+.contact {
+    height: 450px;
+}
+
+.contact h2 {
+    font-size: 3em;
+    width: 800px;
+}
+
+.contact p {
+    font-size: 1.7em;
+}
+
+.contact a {     /* bouton */
+      
+    font-size: 33px;
+    width: 430px;
+    padding: 33px;
+    height: 100px;
+}
+
+        /* footer */
+
+footer {
+    height: 550px;
+}
+
+.icons li {
+    font-size: 35px;
+    transform: translateX(-30%);
+}
+
+.icons img {
+    width: 22%;
+}
+
+.icons li:last-child {    /*instagram-logo */      
+    transform: translateX(-55%);
+}
+
+.icons li p {     /*instagram-txt */      
+    padding-left: 55px;
+}
+
+.copyright {
+    transform: translateX(3%);
+    margin-top: -30px;
+}
+
+.copyright li {
+    font-size: 25px;
+}
+}
+
+         /* media queries 480px */
+
+@media (max-width: 480px) {
+
+         /* BANNER */
+
+#banner {
+    height: 1000px;
+}
+
+.fa-bars {
+    font-size: 45px;
+    width: 150px;
+    height: 100px;
+}
+
+    /* bloc centre */
+
+#bloc-centre {
+    padding-top: 85px;
+    transform: translateX(-15%);
+}
+
+#bloc-centre h1 {
+    font-size: 6em;
+    padding-bottom: 40px;
+}
+
+#bloc-centre h2 {
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {   
+    font-size: 60px;
+    padding: 60px;
+    width: 61%;
+}
+
+     /* bloc 1 Maecenas */
+
+.bloc-texte {
+    height: 1470px;
+}
+
+.bloc-h h2 {
+    font-size: 75px;
+    margin-left: -40px;
+}
+
+.bloc-h h3 {	
+    font-size: 75px;  
+    margin: -101px 0 20px 12%;      
+    width: 55%; 
+}
+
+.bloc-h p {    
+    font-size: 48px;
+    padding-left: 62px;
+}
+
+.bloc-p {
+    margin-top: 80px;
+    width: 67%;
+    padding-left: 69px;
+    font-size: 45px;
+}
+
+        /* bloc 2 Fusce */
+
+#bloc-images{
+	   height: 3050px;	
+}	
+
+.bloc-img img {
+     width: 97%;
+}
+
+.bloc-img {
+    display: flex;
+    flex-direction: column;
+}
+  
+.bloc-txt {			
+	  transform: translateX(-15%);
+}
+		  
+.bloc-txt h2 {
+	  font-size: 75px;
+}
+		  
+.bloc-txt p {
+	  font-size: 48px;
+	  padding-top: 40px;
+}
+
+.bloc-image1, .bloc-image2 {
+    transform: translateX(2.5%);
+    margin-left: 2%;
+	  width: 65%;
+}
+
+.bloc-image1{
+    margin-bottom: 140px;
+}
+
+.bloc-image2{
+    margin-bottom: 100px;
+    margin-top: -40px;
+}
+				  
+.bloc-image1 h3, .bloc-image2 h3 {
+    font-size: 56px;			
+    padding-top: 80px;
+    transform: translateX(-5%);
+}  
+		  
+.bloc-image1 h3, .bloc-image2 h3 {  
+    width: 1160px;
+    height: 215px;  
+    transform: translateX(0.1%);
+    margin-top: -5px;
+}
+		  
+.action {    /* boutons */
+	  margin-top: -25px;
+    flex-direction: column; 
+    width: 89%;
+    margin: 0 14%; 
+}
+  
+.action a {
+    font-size: 60px;
+}
+		  
+.action .btn-red, .action .btn-black {
+    padding: 60px; 
+	  width: 70%;			
+}
+
+.action .btn-red{
+    margin-bottom: 40px;
+}	  
+
+
+        /* bloc 3 Mauris */
+
+#feature {
+    height: 5000px;
+}
+        
+.feat h2 {
+    font-size: 75px;          
+    margin-left: 70px;
+    width: 100%;
+}
+        
+.feat h3 {
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 47px; 
+}
+        
+        /* blocs */
+        
+.bloc3, .bloc4 {
+    transform: translateX(80%);
+    width: 400px;
+}
+        
+.bloc1 h3, .bloc2 h3, .bloc3 h3, .bloc4 h3 {
+    font-size: 48px;
+}
+        
+.bloc1 h4, .bloc2 h4, .bloc3 h4, .bloc4 h4 {
+    font-size: 40px;
+}
+        
+.bloc1 p, .bloc2 p, .bloc3 p, .bloc4 p {
+    font-size: 45px;
+    text-align: center;
+}
+
+.bloc1 img, .bloc2 img, .bloc3 img, .bloc4 img {
+    width: 400px;
+    height: 400px;
+    border: 20px solid #d3cfcf;
+}
+
+.bloc1 h3 {
+    margin-top: 880px;
+    left: 126px;
+    width: 74%;
+}
+        
+.bloc1 h4 {
+    left: 400px;
+    width: 900px;
+    margin-top: 982px;
+}
+    
+.bloc1 p {  
+  margin-top: 1105px;
+  left: 65px;
+  width: 1150px;
+}
+        
+.img1 {
+    left: -660px;
+    top: 400px;
+}
+
+        
+.bloc2 h3 {
+    left: 430px;
+    margin-top: 2550px;
+    padding-bottom: 20px;
+    width: 480px;
+}
+        
+.bloc2 h4 {
+    margin-top: 2663px;
+    left: 257px;
+    width: 780px;
+}
+        
+.bloc2 p {
+    margin-top: 2790px;
+    margin-left: -126px;
+    width: 1200px;
+} 
+        
+.img2 {
+    left: -636px;
+    top: 2053px;
+}
+      
+.bloc3 h3 {
+    top: 1400px;
+    width: 500px;
+    right: 915px;
+}
+        
+.bloc3 h4 {     
+   right: 865px;
+   top: 1510px;
+   width: 630px;
+}
+        
+.bloc3 p {          
+   right: 617px;
+   width: 1150px;
+   top: 1635px;
+}
+        
+.img3 { 
+    right: 970px;
+    top: 900px;
+}
+   
+.bloc4 h3 {
+    top: 3309px;
+    width: 417px;
+    right: 950px;;
+}    
+        
+.bloc4 h4 {
+    right: 744px;
+    top: 3440px;
+    width: 895px;
+} 
+        
+.bloc4 p {          
+    right: 650px;
+    width: 1100px;
+    top: 3561px;;
+}
+        
+.img4 {
+    right: 947px;
+    top: 2807px;
+}
+
+       /* bloc 4 Aenean contact */
+
+.contact {
+    height: 630px;
+    transform: translateX(-15%);
+}
+        
+.contact h2 { 
+    font-size: 4.5em;
+    width: 70%;
+}
+        
+.contact p {
+    font-size: 3em;
+}
+        
+.contact a {     /* bouton */      
+    font-size: 60px;     
+    width: 63%;
+    padding: 65px;
+    height: 180px;
+    margin-top: 100px;
+}   
+
+         /* footer */
+
+ footer {  
+    height: 700px; 
+}
+
+.icons {
+    margin-bottom: 272px;
+    transform: translateX(5%);
+}
+
+.icons li {
+    margin-top: -200px;
+    font-size: 40px;
+}
+
+.icons li:last-child {     /*instagram-logo */  
+    transform: translateX(-60%);  
+}
+
+.copyright {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -261px;
+    margin-left: -6%;
+}
+
+.copyright li {
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+.untitled::after, .design::after {
+  display: none;
+}
+
+}

@@ -1,0 +1,31 @@
+#feature {
+  display: flex;
+  background: white;            
+  flex-direction: column;
+  padding: 5% 5%;
+}
+
+.feature_articles {
+  display:flex;
+  margin-top: 50px;
+  gap:5%;
+}
+
+.feature_articles img {
+  width :150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: solid 7px #eee;
+}
+
+.feature_articles article {
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  gap:20px;
+}     
+
+.feature_articles .bloc2{ 
+  flex-direction: row-reverse;
+} 

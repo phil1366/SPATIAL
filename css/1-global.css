@@ -1,0 +1,56 @@
+:root {
+  --text-white: #FFF; 
+  --text-primary: #484848; 
+  --text-secondary: #666; 
+  --text-light: #aaa;    
+}
+
+*,
+::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/banner_modif.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    font-family: Raleway;
+  }
+
+  h2 {
+    text-transform: uppercase;    
+    font-size: 38px;
+    font-weight: 600;
+    color:var(--text-primary);
+    line-height: 40px;
+  } 
+ 
+  .description {
+    text-transform: uppercase;    
+    font-size: 24px;    
+    color:var(--text-light);   
+  }
+
+  .button {  
+    font-size: 17px;    
+    text-align: center;
+    color: white;
+    padding: 18px;    
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;    
+    font-family: sans-serif;
+    margin: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-red {
+  background: red; 
+}
+
+.btn-black {
+  background: black;  
+}

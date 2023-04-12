@@ -1,0 +1,25 @@
+.bloc-texte {
+    display: flex;           
+    padding: 10% 15%;
+    background: white;
+    gap:20px;
+}
+
+.bloc-texte h2 span{
+    display:block;
+}
+
+.bloc-texte > div {           
+    flex:1;            
+}
+
+.bloc-p {
+    color:var(--text-secondary);
+    font-size: 20px;            
+}
+
+ .bloc-p p{           
+    line-height: 30px;
+    margin: 25px 20px;
+}
+          
