@@ -1,8 +1,65 @@
+      /* Mauris */
+
 #feature {
   display: flex;
   background: white;            
   flex-direction: column;
-  padding: 5% 5%;
+  padding: 7% 9%;
+  height: 800px;
+}
+
+#feature h2{
+  font-size: 43px;
+}
+
+#feature > p{
+  font-size: 24px;
+  text-transform: uppercase;
+  color:var(--text-light);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.bloc1{
+  border: 1px solid red;
+}
+
+.bloc1 h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: right;
+  width: 90%;
+  padding-left: 45%;
+}
+
+.bloc1 h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: right;
+  color:var(--text-light);
+  width: 90%;
+  padding-left: 30%;
+  font-weight: 400;
+}
+
+.bloc2 h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: left;
+  color:var(--text-light);
+  width: 90%;
+  padding-right: 30%;
+  font-weight: 400;
+}
+
+.bloc2 h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .feature_articles {
