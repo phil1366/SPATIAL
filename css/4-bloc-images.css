@@ -1,48 +1,68 @@
-
-        /* bloc 2 Fusce */
+/* bloc 2 Fusce */
 
 #bloc-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #f6f6f6;
-    padding: 5% 5%;
-    gap:20px;            
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6f6f6;
+  padding: 7% 5%;
+  gap: 20px;
+  height: 980px;
 }
-          
+
 .bloc-img {
-    display: flex;
-    align-items: center;
-    gap:2%;
+  display: flex;
+  align-items: center;
+  gap: 4%;
 }
 
-.bloc-img > div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 3px 3px 0 #eee;            
- }
-
-.bloc-img h3{
-    text-align: center;           
-    background-color: white;
-    width: 100%;
-    height: 60px;
-    padding-top: 20px;
-    text-transform: uppercase;    
-    font-size: 24px;    
-    color:var(--text-primary);              
+.bloc-img > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 3px 0 #eee;
 }
 
-.bloc-img img{
-    width:100%;         
- }
+.bloc-img h3 {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height: 110px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+#bloc-images p {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  padding-bottom: 70px;
+}
+
+.bloc-img img {
+  width: 100%;
+  height: 400px;
+}
 
 .action {
-    display:flex;    
-    width:100%;
+  display: flex;  
+  justify-content: center;
 }
 
 .action > * {
-    flex:1;
+  flex: 1;
+  width: 250px;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.button btn-red {
+  background: red;  
+}
+
+.button btn-black {
+  background: black;
 }

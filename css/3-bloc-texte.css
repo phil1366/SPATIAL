@@ -1,25 +1,37 @@
+/* Maecenas */
+
 .bloc-texte {
-    display: flex;           
-    padding: 10% 15%;
-    background: white;
-    gap:20px;
+  display: flex;
+  padding: 7% 16%;
+  background: white;
+  gap: 20px;
 }
 
-.bloc-texte h2 span{
-    display:block;
+.bloc-texte h2{
+  font-size: 43px;
 }
 
-.bloc-texte > div {           
-    flex:1;            
+.bloc-texte h2 span {
+  display: block;  
+  padding-top: 20px;
+}
+
+.bloc-texte > div {
+  flex: 1; 
+}
+
+.bloc-h p{
+  font-size: 24px;
+  padding-top: 20px;
+  line-height: 1.5;
 }
 
 .bloc-p {
-    color:var(--text-secondary);
-    font-size: 20px;            
+  color: var(--text-secondary);
+  font-size: 14px;    
 }
 
- .bloc-p p{           
-    line-height: 30px;
-    margin: 25px 20px;
+.bloc-p p {
+  line-height: 30px;
+  margin: 0 20px;
 }
-          
