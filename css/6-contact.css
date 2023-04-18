@@ -4,16 +4,50 @@
   flex-direction: column;  
   justify-content: center; 
   align-items: center; 
-  gap:30px;  
+  gap: 30px;  
 }
 
 .contact h2 {
   color:#fff;
+  margin-top: 50px;
 }
 
 .contact p {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: normal;
   color: rgb(179, 170, 170);
+  text-transform: uppercase; 
+}
+
+.contact a{
+  width: 270px;
+  margin-top: 30px;
+}
+
+          /* media queries 980px */
+
+@media (max-width: 980px) {
+
+.contact{
+  height: 330px;
+}
+
+.contact h2{
+  font-size: 31px;
+}
+
+.contact p{
+  font-size: 18px;
+  margin-top: -20px;
+  margin-bottom:-20px;
+}
+
+.contact a{
+  height: 70px;
+  width: 300px;
+  font-size: 22px;
+  padding-top: 25px;
+}
+
 }

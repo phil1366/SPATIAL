@@ -19,13 +19,22 @@
 
           /* media queries 980px */
 
- @media (max-width: 980px) {
-    #banner nav{
-      display:none;            
-    }
+@media (max-width: 980px) {
+  
+#banner nav{
+    display:none;            
+}
 
     .openbtn {
-      display:block;
+      display:block;   
+      padding-top: 9px; 
+      padding-left: 20px;
+      background: gray;
+      border-radius: 5px;
+      width: 58px;
+      height: 40px;
+      margin-top: 7px;
+      margin-left: 13px;
     }
 
     #bloc-centre {        

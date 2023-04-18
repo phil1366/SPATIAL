@@ -1,4 +1,4 @@
-/* bloc 2 Fusce */
+       /* bloc 2 Fusce */
 
 #bloc-images {
   display: flex;
@@ -7,7 +7,7 @@
   background: #f6f6f6;
   padding: 7% 5%;
   gap: 20px;
-  height: 980px;
+  height: 900px;
 }
 
 .bloc-img {
@@ -42,12 +42,11 @@
 }
 
 .bloc-img img {
-  width: 100%;
-  height: 400px;
+  width: 100%;  
 }
 
 .action {
-  display: flex;  
+  display: flex;
   justify-content: center;
 }
 
@@ -60,9 +59,48 @@
 }
 
 .button btn-red {
-  background: red;  
+  background: red;
 }
 
 .button btn-black {
   background: black;
+}
+
+       /* media queries 980px */
+
+@media (max-width: 980px) {
+
+#bloc-images{
+    height: 800px;    
+}
+
+#bloc-images h2 {
+    font-size: 31px;
+    text-align: left;
+}
+
+#bloc-images p{
+  font-size: 18px;
+  margin-top: -8px;
+  margin-bottom: -20px;
+}
+
+#bloc-images img{
+  height: 280px;
+}
+
+.bloc-img h3{
+  font-size: 20px;
+}
+
+.action{
+  width: 70%; 
+  height: 160px;   
+}
+
+.action span{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 }

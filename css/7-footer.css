@@ -4,12 +4,12 @@ footer {
   align-items: center;
   flex-direction: column;
   height: 400px;
-  background: white; 
+  background: white;
 }
 
 .icons {
   display: flex;
-  gap:50px;
+  gap: 50px;
   margin: 30px 0;
 }
 
@@ -19,20 +19,20 @@ footer {
 
 .icons i {
   color: #aaa;
-  font-size: 48px;;
+  font-size: 48px;
 }
 
 .icons span {
   color: #000;
   display: block;
- }
-
-.copyright {
-  display: flex;    
 }
 
-.copyright li {    
-  list-style: none;    
+.copyright {
+  display: flex;
+}
+
+.copyright li {
+  list-style: none;
   color: rgb(161, 157, 157);
   padding-left: 20px;
 }
@@ -40,12 +40,22 @@ footer {
 .copyright a {
   color: inherit;
   text-decoration: none;
-  padding-left: 20px;
+  padding-left: 5%;
 }
 
-.untitled::after, .design::after {
+.untitled::after,
+.design::after {
   content: "";
   border-right: 1px solid black;
   padding: 10px 25px 5px 0px;
   opacity: 0.2;
-} 
+}
+
+/* media queries 980px */
+
+@media (max-width: 980px) {
+  .copyright {
+    font-size: 16px;
+    margin-right: 8%;
+  }
+}
