@@ -1,4 +1,4 @@
-       /* bloc 2 Fusce */
+/* bloc 2 Fusce */
 
 #bloc-images {
   display: flex;
@@ -7,7 +7,7 @@
   background: #f6f6f6;
   padding: 7% 5%;
   gap: 20px;
-  height: 900px;
+  height: 950px;
 }
 
 .bloc-img {
@@ -42,7 +42,7 @@
 }
 
 .bloc-img img {
-  width: 100%;  
+  width: 100%;
 }
 
 .action {
@@ -55,7 +55,7 @@
   width: 250px;
   font-size: 20px;
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 2%; 
 }
 
 .button btn-red {
@@ -63,44 +63,83 @@
 }
 
 .button btn-black {
-  background: black;
+  background: black;  
 }
 
-       /* media queries 980px */
+/* media queries 980px */
 
 @media (max-width: 980px) {
+  #bloc-images {
+    height: 800px;
+  }
 
-#bloc-images{
-    height: 800px;    
-}
-
-#bloc-images h2 {
+  #bloc-images h2 {
     font-size: 31px;
     text-align: left;
+  }
+
+  #bloc-images p {
+    font-size: 18px;
+    margin-top: -8px;
+    margin-bottom: -20px;
+  }
+
+  #bloc-images img {
+    height: 280px;
+  }
+
+  .bloc-img h3 {
+    font-size: 20px;
+  }
+
+  .action {
+    width: 70%;
+    height: 160px;
+  }
+
+  .action span {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 }
 
-#bloc-images p{
-  font-size: 18px;
-  margin-top: -8px;
-  margin-bottom: -20px;
-}
+/* media queries 480px */
 
-#bloc-images img{
-  height: 280px;
-}
+@media (max-width: 480px) {
+  #bloc-images {
+    height: 1150px;
+  }
 
-.bloc-img h3{
-  font-size: 20px;
-}
+  .bloc-img {
+    height: 850px;
+  }
 
-.action{
-  width: 70%; 
-  height: 160px;   
-}
+  #bloc-images h2 {
+    font-size: 27px;
+    text-align: left;
+  }
 
-.action span{
-  font-size: 18px;
-  line-height: 1.5;
-}
+  .bloc-img h3 {
+    font-size: 22px;
+    padding-top: 25px;
+    height: 80px;    
+  }
 
+  #bloc-images p {
+    font-size: 17px;
+    margin-bottom: -50px;
+  }
+
+  .action {
+    width: 100%;    
+  }
+
+  .action a{
+    margin: 8px;
+    width: 95%;
+  }
+
+  .action span {
+    font-size: 22px;
+  }
 }

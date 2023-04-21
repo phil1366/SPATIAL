@@ -43,9 +43,7 @@
         /* media queries 980px */
 
 @media (max-width: 980px) { 
-.bloc-texte{
-  height: 750px;
-}    
+   
 
 .bloc-texte h2{
   font-size: 31px; 
@@ -65,9 +63,32 @@
   font-size: 16px;
   margin-left: 0;
 }
-
-.bloc-h{
-  margin-bottom: -350px;
 }
+
+/* media queries 480px */
+
+@media (max-width: 480px) { 
+
+  .bloc-texte {
+    padding: 8% 2%;
+  }
+
+  .bloc-texte h2{
+    font-size: 27px;
+    margin-left: 2%;
+  }
+
+  .bloc-h .description{
+    font-size: 19px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+  }
+
+  .bloc-p p{
+    margin-top: -10px;
+    margin-left: 2%;
+    font-size: 16px;    
+  }
 
 }
