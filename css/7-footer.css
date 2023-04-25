@@ -34,7 +34,7 @@ footer {
 
 .copyright li {
   list-style: none;
-  color: rgb(161, 157, 157);
+  color: var(--text-secondary);
   padding-left: 20px;
 }
 
@@ -65,10 +65,23 @@ footer {
  
 @media (max-width: 480px) { 
 
+footer{
+  height: 280px;
+}
 
+.icons a{
+  font-size: 10px;
+}
 
+.untitled{
+  margin-left: 15%;
+}
 
+.design{
+  margin-left: 10%;
+}
 
-
-
+.copyright li{
+  padding-left: 1%;
+}
 }

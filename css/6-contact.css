@@ -49,5 +49,23 @@
   font-size: 22px;
   padding-top: 25px;
 }
+}
 
+     /* media queries 480px */
+
+@media (max-width: 480px) {
+
+.contact{
+  height: 240px;
+}
+
+.contact h2{
+  font-size: 27px;
+}
+
+.contact a{
+   font-size: 22px;
+   width: 80%;
+   margin-bottom: 70px;
+}
 }

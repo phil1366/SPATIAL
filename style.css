@@ -77,6 +77,6 @@
 
     .untitled::after, .design::after {        
       border: none;
-      padding: none;     
+      padding: 0%;    
     }       
  }       

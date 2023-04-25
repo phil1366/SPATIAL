@@ -37,7 +37,7 @@
 #bloc-images p {
   font-size: 25px;
   text-transform: uppercase;
-  color: var(--text-light);
+  color: var(--text-secondary);
   padding-bottom: 70px;
 }
 
