@@ -79,9 +79,14 @@ footer{
 
 .design{
   margin-left: 10%;
+  font-size: 12px;
 }
 
 .copyright li{
   padding-left: 1%;
+}
+
+.copyright a{
+  padding-left: 11%;
 }
 }
